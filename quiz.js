@@ -1,13 +1,4 @@
-const questions = [
-    {
-        question: "What is the highest grossing Bollywood studio of all time?",
-        answers: [
-            {text: "Dharma Productions", correct: true},
-            {text: "Yash Raj Films", correct: false},
-            {text: "Fox Star Studios", correct: false},
-            {text: "T-Series", correct: false},
-        ]
-    },
+
     {
         question: "Who plays the female lead in the movie 'Chandni Chowk to China'?",
         answers: [

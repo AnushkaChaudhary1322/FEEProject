@@ -75,3 +75,26 @@ body
     cursor:pointer;
     display:none;
 }
+.correct
+{
+    background: #9aeabc;
+}
+.incorrect
+{
+    background: #ff9393;
+}
+.ff
+{
+    background:linear-gradient(to top, black, rgb(34, 34, 34), rgb(71, 70, 70));;
+    width:300px;
+    height:200px;
+    padding: 30px;
+    display: flex;
+    float: left;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 200px;
+}
+

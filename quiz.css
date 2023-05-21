@@ -10,25 +10,7 @@ body
     background-size: cover;
     background-repeat: no-repeat;
 }
-.con1
-{
-    background-image: url('boxbg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 40%;
-    max-width: 600рх;
-    margin: 50px auto 0;
-    border-radius: 10px;
-    padding: 30px;
-}
-.con1 h1
-{
-    font-size: 25px;
-    color:#001e4d;
-    font-weight: 600;
-    border-bottom: 1px solid #333;
-    padding-bottom: 30px;
-}
+
 .quiz
 {
     padding:20px 0; 

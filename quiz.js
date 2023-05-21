@@ -174,18 +174,3 @@ const questions = [
  })
      startQuiz();
  
-     const texts = ["Kareena wore 130 different outfits for\n the movie Heroine", "'LOC: Kargil' is 4 hours and 25\n minutes Longest film in the world", "First bollywood movie was released in\n 1899 where first hollywood movie\n in 1907, Bollywood is older than\n hollywood.", "Mughal-e-Azam is the most\n expensive Bollywood film", "The pregnancy scene from 3 Idiots\n was initially planned for Munna\n Bhai M.B.B.S.","Once Tom Cruice was consider\n for the role of Raj Malhotra\n in Dilwale Dhulania Le Jayenge"," Kaho Naa.. Pyar Hai’ was \nadded to the Guinness Book of World\n Records 2002 edition for winning the\n most number of awards for a movie.\nThe movie won a total of 92 awards!"];
-     let currentIndex = 0;
-     
-     function changeText() {
-       const textElement = document.getElementById("text");
-       textElement.classList.remove("fade-in");
-       
-       setTimeout(function() {
-         textElement.textContent = texts[currentIndex];
-         textElement.classList.add("fade-in");
-         currentIndex = (currentIndex + 1) % texts.length;
-       }, 3000);
-     }
-     
-     setInterval(changeText, 6000);
